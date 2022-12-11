@@ -71,11 +71,11 @@ section#splash {
     font-weight: 100;
     font-size: 5em;
     text-align: center;
-    
+
 }
 
 .artistintro {
-margin-top: auto;
+    margin-top: auto;
 }
 
 .meetartist {
@@ -87,16 +87,16 @@ margin-top: auto;
     font-weight: 100;
     font-size: 4em;
     margin: 0;
-    height: min-content;
+    border: 0em;
 
 
-    
+
 }
 
 section#artistintro {
     width: 100%;
     height: calc(100vh - 100px);
-    
+
 }
 
 /*.omari1 {
@@ -176,42 +176,147 @@ section#artistintro {
 .job {
     padding-left: 70px;
     font-size: .9em;
-    
+
 }
 
 .job2 {
     padding-left: 90px;
     font-size: .9em;
-    
+
 }
 
 .job3 {
     padding-left: 90px;
     font-size: .9em;
-    
+
 }
+
 .card-text2 {
     padding-left: 70px;
     font-size: 1.4em;
     margin-bottom: auto;
-    
+
 }
 
 .card-text3 {
     padding-left: 60px;
     font-size: 1.4em;
     margin-bottom: auto;
-    
+
 }
 
 .card-img-top {
     display: flex;
-    justify-content: space-between;
+
 }
 
 button.btn.btn-secondary.btn-lg {
     background: rgb(108, 83, 58);
     border: none;
     margin-left: 50px;
+    display: flex;
+}
 
+div.card-body {
+    display: inline-block;
+    box-sizing: inherit;
+
+
+}
+
+.body {
+    display: flex;
+}
+
+.card {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    padding: 40px;
+    align-items: center;
+    padding-left: 600px;
+
+}
+
+.footer-art {
+    padding-left: 5px;
+}
+
+.ny {
+    font-family: 'Yeseva One', cursive;
+    font-size: 4em;
+    color: rgb(108, 83, 58);
+    padding: 10%;
+    font-weight: 100;
+    font-size: 4em;
+    margin: 0;
+    border: 0em;
+    padding-left: 200px;
+}
+
+.city {
+    font-family: 'Yeseva One', cursive;
+    font-size: 4em;
+    color: rgb(108, 83, 58);
+    padding: 25%;
+    font-weight: 100;
+    font-size: 4em;
+    margin: 0;
+    border: 0em;
+    padding-left: 300px;
+}
+
+.date {
+    font-weight: 300;
+    padding-left: 240px;
+    text-decoration: underline;
+}
+
+.ny-p1 {
+    padding-left: 200px;
+    margin: 0%;
+    padding-top: 30px;
+}
+
+.gaosian {
+    padding-left: 330px;
+}
+
+.ny-p2 {
+    padding-left: 200px;
+    margin-bottom: 0rem;
+}
+
+.ny-p2art {
+    padding-left: 335px;
+}
+
+.time {
+    padding-left: 250px; 
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+img.rounded.float-end {
+   height: 400px;
+   width: 800px;
+   padding-left: 100px;
+ 
+
+}
+
+.biography {
+    padding-left: 200px;
+    margin: 0%;
+    padding-top: 30px;
+}
+
+nav a:hover{
+    color: rgb(157, 128, 128);
 }
