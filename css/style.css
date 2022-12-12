@@ -320,3 +320,31 @@ img.rounded.float-end {
 nav a:hover{
     color: rgb(157, 128, 128);
 }
+
+.img-fluid {
+    height: 600px;
+    max-width: auto;
+    width: auto;
+}
+#newyork {
+    width: 100%;
+}
+.ny {text-align: center;}
+
+button.btn {
+    background-color: rgb(108, 83, 58);
+    color: white;
+    margin-left: 110px;
+   
+}
+
+.name {
+    margin-left: 90px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.jobs {
+    margin-left: 110px;
+    
+}
